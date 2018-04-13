@@ -1,0 +1,35 @@
+{
+  "name": "npm-login",
+  "version": "1.0.0",
+  "description": "Simple login system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acervantest/node-login.git"
+  },
+  "author": "alejandro cervantes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acervantest/node-login/issues"
+  },
+  "homepage": "https://github.com/acervantest/node-login#readme",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
