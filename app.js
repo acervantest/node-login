@@ -53,8 +53,8 @@ app.use(flash());
 //GLOBAL VARS
 app.use( function(req, res, next) {
     res.locals.success_msg = req.flash('success_msg');
-    res.locals.error_msg = req.flash('err_msg');
-    res.locals.error = req.flash('err');
+    res.locals.error_msg = req.flash('error_msg');
+    res.locals.error = req.flash('error');
     next();
 });
 
